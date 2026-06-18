@@ -1,0 +1,44 @@
+import { Router } from 'express';
+import authRoutes from './auth';
+import userRoutes from './users';
+import inventoryRoutes from './inventory';
+import materialMasterRoutes from './materialMasters';
+import materialRequestRoutes from './materialRequests';
+import purchaseOrderRoutes from './purchaseOrders';
+import vendorRoutes from './vendors';
+import grnRoutes from './grns';
+import inspectionRoutes from './inspections';
+import materialIssueRoutes from './materialIssues';
+import materialReturnRoutes from './materialReturns';
+import dashboardRoutes from './dashboard';
+import reportRoutes from './reports';
+import notificationRoutes from './notifications';
+import aiRoutes from './ai';
+import projectRoutes from './projects';
+import invoiceRoutes from './invoices';
+import documentRoutes from './documents';
+import auditRoutes from './audit';
+
+const router = Router();
+
+router.use('/auth',              authRoutes);
+router.use('/users',             userRoutes);
+router.use('/projects',          projectRoutes);
+router.use('/inventory',         inventoryRoutes);
+router.use('/material-masters',  materialMasterRoutes);
+router.use('/material-requests', materialRequestRoutes);
+router.use('/purchase-orders',   purchaseOrderRoutes);
+router.use('/vendors',           vendorRoutes);
+router.use('/grns',              grnRoutes);
+router.use('/inspections',       inspectionRoutes);
+router.use('/material-issues',   materialIssueRoutes);
+router.use('/material-returns',  materialReturnRoutes);
+router.use('/invoices',          invoiceRoutes);
+router.use('/documents',         documentRoutes);
+router.use('/dashboard',         dashboardRoutes);
+router.use('/reports',           reportRoutes);
+router.use('/notifications',     notificationRoutes);
+router.use('/ai',                aiRoutes);
+router.use('/audit',             auditRoutes);
+
+export default router;
