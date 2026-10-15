@@ -1,6 +1,6 @@
 # Stores & Inventory Management System
 
-Enterprise-grade construction company stores and inventory management system that digitizes the complete material lifecycle — from material requisition to procurement, inspection, stock management, consumption tracking, returns, reporting, and stakeholder communication.
+Enterprise-grade construction company stores and inventory management system that digitizes the complete material lifecycle from material requisition to procurement, inspection, stock management, consumption tracking, returns, reporting, and stakeholder communication.
 
 ## Tech Stack
 
